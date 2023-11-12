@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Ostap Romanchak"
 output: html_document
 ---
 
@@ -14,7 +14,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-
 ### Cool animal fun facts {.tabset .tabset-fade}
 
 #### SHARKS!!!
@@ -23,9 +22,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##### Some great white shark facts (from [NatGeo Kids](https://www.natgeokids.com/uk/discover/animals/sea-life/great-white-sharks/)):
 
-- Great white sharks have ~ 300 teeth
-- And swim way faster than you (25 mph)
-- And are listed as vulnerable on the IUCN Red List
+-   Great white sharks have \~ 300 teeth
+-   And swim way faster than you (25 mph)
+-   And are listed as vulnerable on the IUCN Red List
 
 #### California condors
 
@@ -33,9 +32,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##### Some California condor facts (from [Animal Fact Guide](https://animalfactguide.com/animal-facts/california-condor/)):
 
-- By 1987, there were only 10 California condors living in the wild
-- They are the largest flying bird in North America
-- Critically endangered on the IUCN Red List (> 400 today)
+-   By 1987, there were only 10 California condors living in the wild
+-   They are the largest flying bird in North America
+-   Critically endangered on the IUCN Red List (\> 400 today)
 
 #### American pika
 
@@ -43,21 +42,32 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##### Some American pika facts (from [OneKindPlanet.org](https://onekindplanet.org/animal/pika-american/)):
 
-- Pika are of order *Lagomorpha* (which also includes rabbits)
-- Pika live in high altitude talus slopes
-- American pika are already disappearing from the Sierra Nevada
+-   Pika are of order *Lagomorpha* (which also includes rabbits)
+-   Pika live in high altitude talus slopes
+-   American pika are already disappearing from the Sierra Nevada
 
 #### Ringtail cats
 
 ![Photo: Courtesy of VA Zoo](img/ringtail_cat.jpg)
 
-##### Ringtail cats fun facts: 
+##### Ringtail cats fun facts:
 
-- Can rotate their hind feet 180 degrees to climb better
-- They are not endangered, just very elusive
-- Closely related to raccoons
+-   Can rotate their hind feet 180 degrees to climb better
+-   They are not endangered, just very elusive
+-   Closely related to raccoons
 
-###
+#### Baby Yoda
 
-----------
+![Photo: Baby Yoda](img/Grogu.jpg)  
+
+##### Facts:
+
+-   Also known as "The Child"
+
+-   likes unfertilised frog eggs & control knobs
+
+-   strong with the force
+
+--------------------------------------------------
+
 **Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
