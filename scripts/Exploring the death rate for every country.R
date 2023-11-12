@@ -71,3 +71,9 @@ mortality_figure <- ggplot(data = subset_infant_mortality,
 
 
 ggsave("figures/infant mortality graph.png", plot = mortality_figure, dpi=900, width = 7, height = 7)
+
+
+# An interactive version of our plot 
+
+ggplotly(mortality_figure, tooltip = c("infant_mortality_rate"))
+## uses plotly package
